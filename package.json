@@ -1,0 +1,17 @@
+{
+  "name": "magic-numbers",
+  "version": "1.0.0",
+  "description": "A JavaScript module for working out the type of a file, based on its contents",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:wvoelcker/magic-numbers.git"
+    
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://github.com/wvoelcker/magic-numbers"
+}
