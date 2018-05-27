@@ -27,12 +27,10 @@ var WV_MagicNumbers = (function() {
 			return "audio/mpeg";
 
 		// Apple Lossless Audio Codec file
-		// TODO:WV:20170520:I guess this might change to audio/mp4 one day - could adapt this code to try that if this mime-type causes an error...
 		} else if (/^.{8}667479704D344120/.test(fileStartHex)) {
 			return "audio/x-m4a";
 
 		// Wav file
-		// TODO:WV:20170520:Some browsers might require audio/wav or audio/wave.  Check this in all relevant ones.
 		} else if (/^52494646.{8}57415645666D7420/.test(fileStartHex)) {
 			return "audio/x-wav";
 
